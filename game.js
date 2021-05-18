@@ -108,7 +108,7 @@ function playSound(name) {
   audio.play();
 };
 
-// function tha adds/removes a class from the CSS file to create an animated effect on a setTimeout of .1 seconds
+// function that adds/removes a class from the CSS file to create an animated effect on a setTimeout of .1 seconds
 function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
   setTimeout(function () {
